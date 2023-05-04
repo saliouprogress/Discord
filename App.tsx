@@ -18,7 +18,7 @@ import awsconfig from "./src/aws-exports";
 
 Amplify.configure({ ...awsconfig, Analytics: { disabled: true } });
 
-const API_KEY = "tmdq3ta7ah6k";
+const API_KEY = "x8nxfdw6dbb8";
 const client = StreamChat.getInstance(API_KEY);
 
 const theme: DeepPartial<Theme> = {
